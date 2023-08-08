@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edy Setiawan</title>
+</head>
+<body>
+    <h1> Nama : Edy </h1>
+    <p>Hallo World Saya Sedang Belajar Html</p>
+
+    <script src="script.js">
+
+        function helloName(params) {
+            // wajib nama panggilan
+            if (params == "Edy") {
+                return `Hello ${params}`;
+            } else {
+                return `Anda bukan Edy`;
+            }
+            // jika di dalam function pnya kondisi yang bercabang, berpengaruh pada output
+        }
+    
+        console.log(helloName("Edy"));
+    </script>
+</body>
+</html>
